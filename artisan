@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+
+<?php
+
+//print_r($argc);
+//print_r($argv);
+
+//echo "hello";
