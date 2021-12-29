@@ -30,7 +30,7 @@ Thank you for considering contributing to the Softflies framework! The contribut
 
 ## Security
 
-If you discover a security vulnerability within Softflies, please send an e-mail to Amit Roy via [amit@softflie.com](mailto:amit@softflies.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Softflies, please send an e-mail to Amit Roy via [amit@softflies.com](mailto:amit@softflies.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
