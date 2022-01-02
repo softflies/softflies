@@ -3,27 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-
+use Inculcate\Routing\Request;
 
 class HomeController extends Controller
 {
-    /**
-     * @method @__construct
-     * @param null
-     * @return HomeController\__construct
-     */
-    public function __construct(){
+    public function index() {
 
-    }
-    /**
-     * @method @index
-     * @param null
-     * @return HomeController\index
-     */
-    public function index(){ 
-    
-       $name="OutGood";
-       return view("welcome",compact('name'));
-
+    	return view("welcome");
+    	
     }
 }

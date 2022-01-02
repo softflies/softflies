@@ -8,7 +8,13 @@ return [
     | To set the application name.
     | By default it is the framework name.
    */
-   "app_name" => env("APP_NAME","Out Good"),
+   "app_name" => env("APP_NAME","SOFTFLIES"),
+
+   /*
+    | To set the application locale.
+    | By default it is the en.
+   */
+   "locale" => env("locale","en"),
 
    /*
     | To set the timezone

@@ -17,10 +17,3 @@ if ($uri !== '/' && file_exists(__DIR__.'/public'.$uri)) {
 }
 
 require_once __DIR__.'/public/index.php';
-
-
-$app = new Inculcate\Foundation\Application(
-    $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
-);
-// start the application
-$app->run();
