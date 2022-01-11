@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="<?php echo str_replace('_', '-', app()->getLocale()) ?>">
+<head>
+  <title><?php echo env("APP_NAME"); ?></title>
+  <link href="<?php echo asset('public/favicon.png')?>" rel="icon">
 <style>
 body, html {
   height: 100%;
@@ -23,6 +26,7 @@ body, html {
   text-align: center;
 }
 </style>
+</head>
 <body>
 <div class="bg">
   <div class="middle">

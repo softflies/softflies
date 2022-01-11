@@ -7,8 +7,8 @@ use Inculcate\Routing\Route;
 *
 */
 
-Route::get('/home',[App\Http\Controllers\HomeController::class,'index']);
-Route::get("/",function(){
+Route::get('/',[App\Http\Controllers\HomeController::class,'index']);
+Route::get("/home",function(){
 	
 	  return view("welcome");
 
